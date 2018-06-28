@@ -4,7 +4,7 @@ A simple nginx container that serves Single Page Applications:
 - Redirects all requests to the `index.html` file
 - Assets compression using `gzip` in stylesheets and javascript files.
 
-[Docker Hub](https://hub.docker.com/r/iamfreee/docker-nginx-static-spa/)
+[Docker Hub](https://hub.docker.com/r/whitecat29/docker-nginx-static-spa/)
 
 Very small size: ~7 MB (alpine based). Uses about 2 MB RAM when running.
 
@@ -12,7 +12,7 @@ Very small size: ~7 MB (alpine based). Uses about 2 MB RAM when running.
 
 **Dockerfile:**
 ```
-FROM iamfreee/docker-nginx-static-spa:latest
+FROM whitecat29/docker-nginx-static-spa:latest
 COPY /dist /var/www/html
 ```
 
